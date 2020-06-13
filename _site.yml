@@ -1,0 +1,20 @@
+name: "Sondre Sverd Rekdal"
+output_dir: "."
+navbar:
+  title: "Sondre Sverd Rekdal"
+  left:
+    - text: "Utdannelse"
+      href: utdannelse.html
+    - text: "Prosjekter"
+      href: prosjekter.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/Skjeggy
+    - icon: fa-linkedin fa-lg
+      href: https://no.linkedin.com/in/sondre-rekdal-150a63112
+output:
+  html_document:
+    theme: jekyll-theme-minimal-resume
+    css: 'styles.css'
